@@ -225,8 +225,8 @@ async def next_page(bot, query):
             )
     btn.insert(0,
             [
-                InlineKeyboardButton("⭕️ Group", url="https://t.me/moviespot00100"),
-                InlineKeyboardButton("Dev ⭕️", url="https://t.me/Zinan00100")
+                InlineKeyboardButton("📤Group", url="https://t.me/crimebhavani4"),
+                InlineKeyboardButton("Dev ⭕️", url="https://t.me/pushpa_Reju")
             ])
 
     btn.insert(0, [
@@ -478,11 +478,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/moviespot001100'),
-                InlineKeyboardButton('Dᴇᴠ', url='https://t.me/Zinan00100')
+                InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/crimebhavani4'),
+                InlineKeyboardButton('Dᴇᴠ', url='https://t.me/pushpa_Reju')
             ],
             [
-                InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=f'https://t.me/moviespot00100')
+                InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=f'https://t.me/updatechannel_forcrime')
             ]
             ]
 
@@ -531,11 +531,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('Gʀᴏᴜᴏ', url='https://t.me/moviespot001100'),
-                InlineKeyboardButton('Dᴇᴠ', url='https://t.me/Zinan00100')
+                InlineKeyboardButton('Gʀᴏᴜᴏ', url='https://t.me/crimebhavani4'),
+                InlineKeyboardButton('Dᴇᴠ', url='https://t.me/pushpa_Reju')
             ],
             [
-                InlineKeyboardButton('Cʜᴀɴᴇᴇʟ', url=f'https://t.me/moviespot00100')
+                InlineKeyboardButton('Cʜᴀɴᴇᴇʟ', url='https://t.me/updatechannel_forcrime')
             ]
             ]
         await query.answer()
@@ -788,10 +788,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔍𝑠𝑒𝑎𝑟𝑐𝒉 𝒉𝑒𝑟𝑒 𝑚𝑜𝑣𝑖𝑒🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟', url='https://t.me/Zinan00100'),
-            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/moviespot001100')
+            InlineKeyboardButton('𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟', url='https://t.me/pushpa_Reju'),
+            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/crimebhavani4')
             ],[
-            InlineKeyboardButton('𝑈𝑃𝐷𝐴𝑇𝐸𝑆 𝐶𝐻𝐴𝑁𝑁𝐸𝐿', url='https://t.me/moviespot00100'),
+            InlineKeyboardButton('𝑈𝑃𝐷𝐴𝑇𝐸𝑆 𝐶𝐻𝐴𝑁𝑁𝐸𝐿', url='https://t.me/updatechannel_forcrime'),
             ],[
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
@@ -978,7 +978,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔍Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🍿Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ🍿', url='https://t.me/moviespot001100')
+            InlineKeyboardButton('🍿Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ🍿', url='https://t.me/crimebhavani4')
             ],[
             InlineKeyboardButton('Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
@@ -1576,14 +1576,14 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/moviespot00100")]
+            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/updatechannel_forcrime")]
         )
     else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/moviespot00100")]
+            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/updatechannel_forcrime")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
