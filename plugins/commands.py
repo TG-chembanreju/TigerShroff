@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/moviespot00100')
+                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/crimebhavani4')
             ],
             [
                 InlineKeyboardButton('Hᴇʟᴏ', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -50,10 +50,10 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍𝑠𝑒𝑎𝑟𝑐𝒉 𝒉𝑒𝑟𝑒 𝑚𝑜𝑣𝑖𝑒🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟', url='https://t.me/Zinan00100'),
-            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/moviespot001100')
+            InlineKeyboardButton('𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟', url='https://t.me/pushpa_Reju'),
+            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/crimebhavani4')
             ],[
-            InlineKeyboardButton('𝑈𝑃𝐷𝐴𝑇𝐸𝑆 𝐶𝐻𝐴𝑁𝑁𝐸𝐿', url='https://t.me/moviespot00100'),
+            InlineKeyboardButton('𝑈𝑃𝐷𝐴𝑇𝐸𝑆 𝐶𝐻𝐴𝑁𝑁𝐸𝐿', url='https://t.me/updatechannel_forcrime'),
             ],[
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
@@ -249,11 +249,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/moviespot001100'),
-            InlineKeyboardButton('Dᴇᴠ', url='https://t.me/Zinan00100')
+            InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/crimebhavani4'),
+            InlineKeyboardButton('Dᴇᴠ', url='https://t.me/pushpa_Reju')
         ],
         [
-            InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=f'https://t.me/moviespot00100')
+            InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=f'https://t.me/updatechannel_forcrime')
         ]
         ]
     await client.send_cached_media(
