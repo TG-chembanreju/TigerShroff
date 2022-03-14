@@ -58,8 +58,17 @@ async def start(client, message):
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_photo(
-            photo=random.choice(PICS),
+        await message.reply_chat_action("typing")      
+        m=await message.reply_sticker("CAACAgUAAxkBAAEEFVBiJi1q5_k4yPKW4JaqlN69-XW_LgACiAIAAkk1iVfATyrVAo51UyME")
+        await asyncio.sleep(1)
+        await m.delete()
+        await message.reply_chat_action("typing")      
+        m=await message.reply_sticker("CAACAgUAAxkBAAEEFfBiJq90Rpox4GkYQm8e9bR01WGTrwAC_QIAAnxCOVcsphIq7sx3fCME")
+        await asyncio.sleep(1)
+        await m.delete()
+        await message.reply_video(
+        
+            vedio=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -105,8 +114,17 @@ async def start(client, message):
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_photo(
-            photo=random.choice(PICS),
+        await message.reply_chat_action("typing")      
+        m=await message.reply_sticker("CAACAgUAAxkBAAEEFVBiJi1q5_k4yPKW4JaqlN69-XW_LgACiAIAAkk1iVfATyrVAo51UyME")
+        await asyncio.sleep(1)
+        await m.delete()
+        await message.reply_chat_action("typing")      
+        m=await message.reply_sticker("CAACAgUAAxkBAAEEFfBiJq90Rpox4GkYQm8e9bR01WGTrwAC_QIAAnxCOVcsphIq7sx3fCME")
+        await asyncio.sleep(1)
+        await m.delete()
+        
+        await message.reply_vedio(
+            vedio=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
