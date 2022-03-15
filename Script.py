@@ -1,9 +1,9 @@
 class script(object):
     START_TXT = """𝙃𝙖𝙞 {},
-𝙸 𝙰𝚖 𝙰 𝙿𝚛𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚎𝚍 𝚁𝚘𝚋𝚘𝚝 𝙽𝚊𝚖𝚎𝚍,  
-<a href='http://t.me/Rexer0BOT_BOT?startgroup=true?startgroup=true'>𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 𝑨𝒏𝒅 𝑴𝒂𝒌𝒆 𝑴𝒆 𝑨𝒏 𝑨𝒅𝒎𝒊𝒏 </a>,🟡𝙏𝙝𝙚𝙣 𝙎𝙚𝙚 𝙈𝙮 𝙋𝙤𝙬𝙚𝙧𝙨✨️
+𝙸 𝙰𝚖 𝙰 𝙿𝚛𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚎𝚍 𝚁𝚘𝚋𝚘𝚝 𝙱𝚄𝚃 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿
+🟡𝙏𝙝𝙚𝙣 𝙎𝙚𝙚 𝙈𝙮 𝙋𝙤𝙬𝙚𝙧𝙨✨️
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-©MᴀɪɴᴛᴀɪɴᴇD Bʏ:<a href='https://t.me/pushpa_Reju'><b>PᴜꜱʜᴩᴀRᴇᴊᴜ. 𝕆</b></a> .</b>"""
+©MᴀɪɴᴛᴀɪɴᴇD Bʏ:<a href='https://t.me/pushpa_Reju'><b>PᴜꜱʜᴩᴀRᴇᴊᴜ</b></a> .</b>"""
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 <b>മോനെ Features എങ്ങനെയുൺ <a href='https://t.me/pushpa_Reju'><b>ʀᴀᴛᴇ ɪᴛ </a>
