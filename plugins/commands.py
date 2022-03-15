@@ -43,17 +43,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('𝑎𝑑𝑑 𝑚𝑒 𝑡𝑜 𝑦𝑜𝑢𝑟 𝑐𝒉𝑎𝑡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖸𝖮𝖴𝖱 𝖦𝖱𝖮𝖴𝖯➕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝒉𝑒𝑙𝑝', callback_data='help'),
-            InlineKeyboardButton('𝑎𝑏𝑜𝑢𝑡', callback_data='about')
+            InlineKeyboardButton('📚𝖧𝖾𝗅𝗉', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝖠𝖻𝗈𝗎𝗍 ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍𝑠𝑒𝑎𝑟𝑐𝒉 𝒉𝑒𝑟𝑒 𝑚𝑜𝑣𝑖𝑒🔎', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍ꜱᴇᴀʀᴄʜ ɪɴʟɪɴᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟', url='https://t.me/pushpa_Reju'),
-            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/crimebhavani4')
+            InlineKeyboardButton('𝐷ᴇᴠ', url='https://t.me/pushpa_Reju'),
+            InlineKeyboardButton('𝖦𝗋𝗈𝗎𝗉📂', url='https://t.me/crimebhavani4')
             ],[
-            InlineKeyboardButton('𝑈𝑃𝐷𝐴𝑇𝐸𝑆 𝐶𝐻𝐴𝑁𝑁𝐸𝐿', url='https://t.me/updatechannel_forcrime'),
+            InlineKeyboardButton('🔹𝖢𝗁𝖺𝗇𝗇𝖾𝗅🔸', url='https://t.me/updatechannel_forcrime'),
             ],[
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
@@ -99,20 +99,20 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('𝑎𝑑𝑑 𝑚𝑒 𝑡𝑜 𝑦𝑜𝑢𝑟 𝑐𝒉𝑎𝑡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖸𝖮𝖴𝖱 𝖦𝖱𝖮𝖴𝖯➕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝒉𝑒𝑙𝑝', callback_data='help'),
-            InlineKeyboardButton('𝑎𝑏𝑜𝑢𝑡', callback_data='about')
+            InlineKeyboardButton('📚𝖧𝖾𝗅𝗉', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝖠𝖻𝗈𝗎𝗍 ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍𝑠𝑒𝑎𝑟𝑐𝒉 𝒉𝑒𝑟𝑒 𝑚𝑜𝑣𝑖𝑒🔎', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍ꜱᴇᴀʀᴄʜ ɪɴʟɪɴᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟', url='https://t.me/Zinan00100'),
-            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/moviespot001100')
+            InlineKeyboardButton('𝐷ᴇᴠ', url='https://t.me/pushpa_Reju'),
+            InlineKeyboardButton('𝖦𝗋𝗈𝗎𝗉📂', url='https://t.me/crimebhavani4')
             ],[
-            InlineKeyboardButton('𝑈𝑃𝐷𝐴𝑇𝐸𝑆 𝐶𝐻𝐴𝑁𝑁𝐸𝐿', url='https://t.me/moviespot00100'),
+            InlineKeyboardButton('🔹𝖢𝗁𝖺𝗇𝗇𝖾𝗅🔸', url='https://t.me/updatechannel_forcrime'),
             ],[
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
-        ]]
+        ]]  
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("typing")      
         m=await message.reply_sticker("CAACAgUAAxkBAAEEFVBiJi1q5_k4yPKW4JaqlN69-XW_LgACiAIAAkk1iVfATyrVAo51UyME")
