@@ -225,8 +225,8 @@ async def next_page(bot, query):
             )
     btn.insert(0,
             [
-                InlineKeyboardButton("📤Group", url="https://t.me/crimebhavani4"),
-                InlineKeyboardButton("Dev ⭕️", url="https://t.me/pushpa_Reju")
+                InlineKeyboardButton("Group📂", url="https://t.me/crimebhavani4"),
+                InlineKeyboardButton("Dev 📍", url="https://t.me/pushpa_Reju")
             ])
 
     btn.insert(0, [
@@ -781,17 +781,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('𝑎𝑑𝑑 𝑚𝑒 𝑡𝑜 𝑦𝑜𝑢𝑟 𝑐𝒉𝑎𝑡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖸𝖮𝖴𝖱 𝖦𝖱𝖮𝖴𝖯➕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝒉𝑒𝑙𝑝', callback_data='help'),
-            InlineKeyboardButton('𝑎𝑏𝑜𝑢𝑡', callback_data='about')
+            InlineKeyboardButton('📚𝖧𝖾𝗅𝗉', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝖠𝖻𝗈𝗎𝗍 ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍𝑠𝑒𝑎𝑟𝑐𝒉 𝒉𝑒𝑟𝑒 𝑚𝑜𝑣𝑖𝑒🔎', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍ꜱᴇᴀʀᴄʜ ɪɴʟɪɴᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟', url='https://t.me/pushpa_Reju'),
-            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/crimebhavani4')
+            InlineKeyboardButton('𝐷ᴇᴠ', url='https://t.me/pushpa_Reju'),
+            InlineKeyboardButton('𝖦𝗋𝗈𝗎𝗉📂', url='https://t.me/crimebhavani4')
             ],[
-            InlineKeyboardButton('𝑈𝑃𝐷𝐴𝑇𝐸𝑆 𝐶𝐻𝐴𝑁𝑁𝐸𝐿', url='https://t.me/updatechannel_forcrime'),
+            InlineKeyboardButton('🔹𝖢𝗁𝖺𝗇𝗇𝖾𝗅🔸', url='https://t.me/updatechannel_forcrime'),
             ],[
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
@@ -923,7 +923,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "hellp":
         buttons = [[
-            InlineKeyboardButton('𝑀𝑎𝑛𝑢𝑒𝑙 𝐹𝑖𝑙𝑡𝑒𝑟', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝑀𝑎𝑛𝑢𝑒𝑙 ', callback_data='manuelfilter'),
             InlineKeyboardButton('𝐴𝑢𝑡𝑜 𝐹𝑖𝑙𝑡𝑒𝑟', callback_data='autofilter'),
             InlineKeyboardButton('𝐶𝑜𝑛𝑛𝑒𝑐𝑡𝑖𝑜𝑛𝑠', callback_data='coct')
             ],[
