@@ -98,7 +98,7 @@ async def fil_mod(client, message):
       else:
           await m.edit("Use: `/autofilter on` or `/autofilter off`")
 
-@Client.on_message(filters.group & filters.text & filters.incoming)
+@Client.on_message(filters.group & filters.text & filters.incoming & filters.private)
 async def give_filter(client,message):
     group_id = message.chat.id
     name = message.text
@@ -788,7 +788,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔍ꜱᴇᴀʀᴄʜ ɪɴʟɪɴᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('𝐷ᴇᴠ', url='https://t.me/pushpa_Reju'),
+            InlineKeyboardButton('𝐷ᴇᴠ', url='https://t.me/pushpa_Reju1'),
             InlineKeyboardButton('𝖦𝗋𝗈𝗎𝗉📂', url='https://t.me/crimebhavani4')
             ],[
             InlineKeyboardButton('🔹𝖢𝗁𝖺𝗇𝗇𝖾𝗅🔸', url='https://t.me/updatechannel_forcrime'),
